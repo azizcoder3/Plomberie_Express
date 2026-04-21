@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog &amp; Conseils | Plomberie Express | Guide de l'Expert</title>
+<meta name="description" content="Nos experts partagent leurs conseils pour l'entretien de vos installations et les dernières innovations en plomberie et chauffage."/>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&amp;family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "background": "#fcf8f9",
+                    "on-primary-container": "#fffbff",
+                    "on-primary-fixed-variant": "#920400",
+                    "tertiary-fixed-dim": "#bcc8d3",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#f3f0f1",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-fixed-variant": "#3d4851",
+                    "outline-variant": "#e6bdb6",
+                    "secondary-fixed-dim": "#ebc300",
+                    "tertiary-fixed": "#d8e4ef",
+                    "on-secondary-fixed": "#231b00",
+                    "on-surface-variant": "#5d403b",
+                    "surface-container-low": "#f6f3f4",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-container": "#fed305",
+                    "on-secondary-container": "#705b00",
+                    "surface-dim": "#dcd9da",
+                    "surface-container-high": "#eae7e8",
+                    "on-primary-fixed": "#410100",
+                    "on-tertiary-container": "#fcfcff",
+                    "on-error-container": "#93000a",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#121d25",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "surface": "#fcf8f9",
+                    "on-surface": "#1b1b1c",
+                    "secondary-fixed": "#ffe178",
+                    "surface-container-highest": "#e5e2e3",
+                    "outline": "#916f69",
+                    "surface-variant": "#e5e2e3",
+                    "on-background": "#1b1b1c",
+                    "error": "#ba1a1a",
+                    "surface-container": "#f0edee",
+                    "tertiary-container": "#6b7680",
+                    "secondary": "#715d00",
+                    "inverse-surface": "#303031",
+                    "tertiary": "#525d67",
+                    "primary-fixed": "#ffdad4",
+                    "on-secondary": "#ffffff",
+                    "primary": "#bb0600",
+                    "surface-tint": "#be0b02",
+                    "surface-bright": "#fcf8f9",
+                    "on-secondary-fixed-variant": "#554500",
+                    "inverse-primary": "#ffb4a8",
+                    "on-tertiary": "#ffffff",
+                    "primary-container": "#e02b1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Fugaz One", "cursive"],
+                    "body": ["Poppins", "sans-serif"],
+                    "label": ["Plus Jakarta Sans", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="bg-background text-on-surface font-body">
+<!-- Urgency Banner (Signature Component) -->
+<div class="fixed top-0 left-0 w-full z-[60] h-8 bg-secondary-container/80 backdrop-blur-md flex items-center justify-center border-none">
+<p class="font-label text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold text-on-secondary-container">
+            Service d'Urgence 24h/7 — Intervention en moins de 30 minutes
+        </p>
+</div>
+<!-- TopNavBar -->
+<header class="fixed top-8 w-full z-50 bg-white/90 backdrop-blur-xl dark:bg-zinc-950/90 border-b border-zinc-100 dark:border-zinc-900 shadow-sm">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-[1920px] mx-auto">
+<div class="font-['Fugaz_One'] italic text-2xl text-red-700 dark:text-red-500 transition-all duration-300 hover:scale-105">
+                Plomberie Express
+            </div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="index.html">Accueil</a>
+<a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="services.html">Services</a>
+<a class="font-['Poppins'] text-sm uppercase tracking-widest text-red-700 dark:text-red-500 font-bold border-b-2 border-red-700 pb-1 transition-all duration-300 hover:scale-105" href="blog.html">Blog</a>
+<a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="contact.html">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-900 font-bold hidden lg:block" href="tel:0123456789">01 23 45 67 89</a>
+<a class="bg-primary hover:bg-primary-container text-white px-6 py-3 font-['Poppins'] text-sm uppercase tracking-widest font-bold transition-all duration-300 hover:scale-105 active:scale-95 text-center" href="tel:0123456789">
+                    Appel d'Urgence
+                </a>
+<button class="md:hidden text-zinc-900 ml-4" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Menu Container -->
+<div class="hidden md:hidden fixed top-28 left-0 w-full bg-white z-40 border-b border-zinc-100 shadow-xl p-8 space-y-6" id="mobile-menu">
+<a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="index.html">Accueil</a>
+<a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="services.html">Services</a>
+<a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="blog.html">Blog</a>
+<a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="contact.html">Contact</a>
+</div>
+</header>
+<main class="pt-32 pb-20">
+<!-- Hero Section -->
+<section class="px-6 md:px-12 max-w-7xl mx-auto mb-16">
+<div class="relative overflow-hidden bg-surface-container-low p-8 md:p-16 flex flex-col md:flex-row items-center gap-12">
+<div class="z-10 flex-1">
+<span class="inline-block bg-secondary text-on-secondary text-[10px] font-bold tracking-[0.2em] uppercase px-3 py-1 mb-6">Expertise &amp; Savoir-faire</span>
+<h1 class="font-headline text-4xl md:text-6xl text-on-surface italic mb-6 leading-[1.1]">
+                        Conseils &amp; Actualités Plomberie
+                    </h1>
+<p class="text-on-surface-variant max-w-lg mb-8 leading-relaxed">
+                        Retrouvez les conseils de nos experts pour entretenir vos installations, éviter les sinistres et comprendre les dernières innovations en génie climatique.
+                    </p>
+<div class="flex gap-4">
+<div class="flex items-center gap-2 text-primary font-bold text-sm group cursor-pointer">
+<span>DÉCOUVRIR NOS GUIDES</span>
+<span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+</div>
+<div class="relative flex-1 w-full aspect-square md:aspect-video overflow-hidden">
+<img class="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-700" data-alt="Modern high-end bathroom plumbing fixture with professional tools neatly arranged on a clean white surface, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYVHNOv4CInMPHT3yWXstds93eaKsgv_dtSBgu2SYxy3r9Zibzjj2duYs1FKq28iMBsIz9iY5viKlJssKRu6Hr6Uf5Q-W3YAsgsLkYW1K-9JBV-zBWIVAM8oZpdil9ZizwA-80BSPHMf8sVWlNoxZFgOH-LHeCHqp63be2CB-OYIqr5lTD7c7R0UcPY82mQBGhoy048OuEouJ7vtRz_gQDL3YCk6G97ABETVdya2Nvid5Rkgh8EHt_ru5IQpboirGUk4qIbRza1gQ"/>
+</div>
+</div>
+</section>
+<!-- Category Filters -->
+<section class="px-6 md:px-12 max-w-7xl mx-auto mb-12">
+<div class="flex flex-wrap items-center gap-4 py-6 border-y border-outline-variant/10">
+<span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mr-4">Filtrer par :</span>
+<button class="filter-btn px-5 py-2 bg-primary text-on-primary text-xs font-bold uppercase tracking-widest transition-all" data-category="all">Tous les articles</button>
+<button class="filter-btn px-5 py-2 bg-surface-container-high text-on-surface-variant text-xs font-bold uppercase tracking-widest hover:bg-surface-container-highest transition-colors" data-category="entretien">Entretien</button>
+<button class="filter-btn px-5 py-2 bg-surface-container-high text-on-surface-variant text-xs font-bold uppercase tracking-widest hover:bg-surface-container-highest transition-colors" data-category="urgences">Urgences</button>
+<button class="filter-btn px-5 py-2 bg-surface-container-high text-on-surface-variant text-xs font-bold uppercase tracking-widest hover:bg-surface-container-highest transition-colors" data-category="installation">Installation</button>
+<button class="filter-btn px-5 py-2 bg-surface-container-high text-on-surface-variant text-xs font-bold uppercase tracking-widest hover:bg-surface-container-highest transition-colors" data-category="chauffage">Chauffage</button>
+</div>
+</section>
+<section class="px-6 md:px-12 max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
+<!-- Articles Grid -->
+<div class="flex-[2] space-y-16">
+<article class="blog-card group cursor-pointer" data-category="urgences">
+<a href="blog-detail.html">
+<div class="relative mb-8 overflow-hidden">
+<img class="w-full aspect-[21/9] object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Professional plumber inspecting a modern boiler system in a clean mechanical room, high contrast lighting, editorial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoJgjPY5ZronNUhV51iukRT45zZGHubquVoe8xH6YxJYz77H7U61E0UEqmd4GquwG466vIW5LNaYz-fFzmoHEUb575GTPIrbiu_M9q7e4D-DYBbA_zOtkx58Hvk9pINWgnrqdngUXHDBR1JFXAa5SkRmd7i9lalV1mZiAOYQUrfrhH2g8TEKDUEl1zDc4pVTz15R14WMbHggjtKE2dAWsjlkIN7kSy9Qy1TJ-sX5zwQ4RZWMipoi51kajMHYv5032p4XC5Ux4gmNk"/>
+<div class="absolute top-6 left-6 bg-secondary text-on-secondary px-4 py-1 text-[10px] font-bold uppercase tracking-widest">À LA UNE</div>
+</div>
+<div class="max-w-2xl">
+<div class="flex items-center gap-4 mb-4 text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">
+<span>12 MAI 2024</span>
+<span class="w-8 h-px bg-outline-variant"></span>
+<span>URGENCES</span>
+</div>
+<h2 class="font-headline text-3xl md:text-4xl italic mb-4 group-hover:text-primary transition-colors leading-tight">
+                            Comment réagir face à une fuite d'eau majeure ? Les 5 gestes qui sauvent.
+                        </h2>
+<p class="text-on-surface-variant mb-6 leading-relaxed">
+                            Une fuite d'eau soudaine peut causer des dégâts irréparables en quelques minutes seulement. Découvrez le protocole d'urgence appliqué par nos techniciens pour sécuriser votre domicile avant notre arrivée...
+                        </p>
+<div class="flex items-center gap-6">
+<span class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">
+<span class="material-symbols-outlined text-sm">schedule</span> 8 MIN DE LECTURE
+                            </span>
+<span class="text-xs font-bold border-b border-primary text-primary tracking-widest uppercase">Lire la suite</span>
+</div>
+</div>
+</a>
+</article>
+<!-- Regular Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+<!-- Article Card 1 -->
+<article class="blog-card group cursor-pointer" data-category="entretien">
+<a href="blog-detail.html">
+<div class="relative mb-6 overflow-hidden aspect-[4/3] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of a metallic plumbing wrench tightening a pipe joint, water droplets, professional industrial atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrFw3AaPeVL7iQoI1MfkugndA7E2e2uPk30Xs4J1m_-zdXV3JdOdaQk8xq_-NLKjUWzgHz-ZLc4NbSxDM2W8eCZ9rGZWPXXEk1UItgs9yOUNQTdL5SOQL1aMJJhU9oKODCNgFlzyaZERAUH4720CAoRV4rt4Fc4Mg1RyX0RrhnpotPoShpjW-H9eYXFTkWsEm4YXhlF-6dus2VyAHLB-KSEBf8KAODdGgvq36ynSEcTeZ2S6WHSD2odXnjpsH5yh0QIdN2jcI0s2w"/>
+</div>
+<div class="flex items-center gap-3 mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">
+<span>08 MAI 2024</span>
+<span>•</span>
+<span>ENTRETIEN</span>
+</div>
+<h3 class="font-headline text-xl italic mb-3 leading-tight group-hover:text-primary transition-colors">
+                            L'art du débouchage écologique : 3 astuces sans produits chimiques.
+                        </h3>
+<p class="text-sm text-on-surface-variant mb-4 line-clamp-3">
+                            Préservez vos canalisations et l'environnement en adoptant des méthodes de débouchage douces mais redoutablement efficaces.
+                        </p>
+<div class="flex items-center justify-between">
+<span class="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span> 5 MIN
+                            </span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">trending_flat</span>
+</div>
+</a>
+</article>
+<!-- Article Card 2 -->
+<article class="blog-card group cursor-pointer" data-category="chauffage">
+<a href="blog-detail.html">
+<div class="relative mb-6 overflow-hidden aspect-[4/3] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Interior of a modern utility room showing a sophisticated heating system with copper pipes and digital displays" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIJl46JXcehAmkN56lPN8mF4iuNCYPRQqBAs-DOdZxmYhbxKs8HSqUPcqu8EuLqEq2BPggqSy4D9-Qb7nI2LjPVO43PFVCr2_j0wA1WqWL5ED3OjzLlDtysgGFz7cX2S6ucvnIxWuUQbFdeJjsgOhn1db9qxTXZ1k2ZkkoqvsesqsPBc7g_en-ehkchT42h8uYPsJrOo_eglN20stWSWZsMsQRlc4v8ehR_JvY7FzSpvvZMMenVo7VjBk8OjGkXkd-sV0JiHUrLz4"/>
+</div>
+<div class="flex items-center gap-3 mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">
+<span>02 MAI 2024</span>
+<span>•</span>
+<span>CHAUFFAGE</span>
+</div>
+<h3 class="font-headline text-xl italic mb-3 leading-tight group-hover:text-primary transition-colors">
+                            Passer à la pompe à chaleur : Ce que vous devez savoir en 2024.
+                        </h3>
+<p class="text-sm text-on-surface-variant mb-4 line-clamp-3">
+                            Rentabilité, aides de l'État et installation : notre guide complet pour réussir votre transition énergétique sereinement.
+                        </p>
+<div class="flex items-center justify-between">
+<span class="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span> 12 MIN
+                            </span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">trending_flat</span>
+</div>
+</a>
+</article>
+<!-- Article Card 3 -->
+<article class="blog-card group cursor-pointer" data-category="installation">
+<a href="blog-detail.html">
+<div class="relative mb-6 overflow-hidden aspect-[4/3] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Macro photo of clean water flowing from a sleek modern faucet, focus on the crystal clear water stream" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYW6nHFibXwHI82ceTt8FsT8bFgM8EtjMrSARX8Qp4WQ7CgK9xKRoZGqQLW7xF7_-aI9Q8W0c-A3okFja0k_Q9GiMQN9ra-O8hWJ3GpMzhGQLjPN_8nhSFOalf-YAMGJlvPcL8fUvC0TgI3Jb5CHHsUGCxr9rk5RoyTkC_HP_TeGuvvL_ED1h8M2TWnZOJ7fj3yprnsbPpHxi5iycDTsLwihTeHdB6qFotELEmc2a71CQfew0-1U6QeSIjdOp6X1w8sGk7iG4AFvI"/>
+</div>
+<div class="flex items-center gap-3 mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">
+<span>25 AVRIL 2024</span>
+<span>•</span>
+<span>INSTALLATION</span>
+</div>
+<h3 class="font-headline text-xl italic mb-3 leading-tight group-hover:text-primary transition-colors">
+                            Qualité de l'eau : Faut-il installer un adoucisseur chez soi ?
+                        </h3>
+<p class="text-sm text-on-surface-variant mb-4 line-clamp-3">
+                            Le calcaire est l'ennemi numéro 1 de votre plomberie. Analysez les bénéfices d'un traitement de l'eau sur le long terme.
+                        </p>
+<div class="flex items-center justify-between">
+<span class="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span> 6 MIN
+                            </span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">trending_flat</span>
+</div>
+</a>
+</article>
+<!-- Article Card 4 -->
+<article class="blog-card group cursor-pointer" data-category="installation">
+<a href="blog-detail.html">
+<div class="relative mb-6 overflow-hidden aspect-[4/3] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Digital smart home water monitor device on a smartphone screen next to copper plumbing pipes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVd6XngFxjoKXV0UnOYNnMFVnj4rUN_y3RbU6v9OabA6mL6b6hI6kuT-NbsEIPVYspTTb6MBapE_1XaAETp5dvCrkESaGqiXda--Jjf5qzMFxPf1OJnzwTJUw5Z2Qu2NTdidJda3CXRE0TbRH-TgVnt4rctgKKDtBCCOF10hmPbybgNo7BxAHAEp1uqJYstc1nhJ3NX3y6IfuVd-cF1TU3HMpWu_8ap-0YKnw21-Lko6iMTc8cHCU_2a5e63uc9kX_orV9ivFaxcg"/>
+</div>
+<div class="flex items-center gap-3 mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">
+<span>15 AVRIL 2024</span>
+<span>•</span>
+<span>INSTALLATION</span>
+</div>
+<h3 class="font-headline text-xl italic mb-3 leading-tight group-hover:text-primary transition-colors">
+                            Smart Home : Les détecteurs de fuite connectés valent-ils l'investissement ?
+                        </h3>
+<p class="text-sm text-on-surface-variant mb-4 line-clamp-3">
+                            La technologie au service de votre sérénité. Comparatif des meilleurs systèmes de détection de fuite intelligents.
+                        </p>
+<div class="flex items-center justify-between">
+<span class="text-[9px] font-bold uppercase tracking-widest text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span> 7 MIN
+                            </span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">trending_flat</span>
+</div>
+</a>
+</article>
+</div>
+<!-- Pagination -->
+<div class="flex items-center gap-2">
+<a class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:bg-surface-container-highest transition-colors font-bold" href="blog.html">1</a>
+<a class="w-10 h-10 flex items-center justify-center bg-primary text-on-primary font-bold" href="blog-2.html">2</a>
+<a class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:bg-surface-container-highest transition-colors font-bold" href="blog-2.html">3</a>
+<a class="px-4 h-10 flex items-center justify-center bg-surface-container-high hover:bg-surface-container-highest transition-colors font-bold uppercase text-[10px] tracking-widest" href="blog-2.html">Suivant</a>
+</div>
+</div>
+<!-- Sidebar -->
+<aside class="flex-1 space-y-12">
+<!-- Newsletter -->
+<div class="bg-on-surface p-8 text-on-primary">
+<h4 class="font-headline text-xl italic mb-4">L'Hebdo de l'Expert</h4>
+<p class="text-xs text-on-primary/70 leading-relaxed mb-6 uppercase tracking-widest">Recevez nos meilleurs conseils d'entretien et offres exclusives directement dans votre boîte mail.</p>
+<form class="space-y-4">
+<input class="w-full bg-on-surface-variant/20 border-none px-4 py-3 text-sm focus:ring-1 focus:ring-primary placeholder:text-on-primary/30" placeholder="votre@email.com" type="email" required/>
+<button class="w-full bg-primary py-3 text-xs font-bold uppercase tracking-[0.2em] hover:bg-primary/90 transition-colors" type="submit">S'inscrire</button>
+</form>
+<p class="text-[9px] text-on-primary/40 mt-4 italic">Pas de spam. Désinscription possible en un clic.</p>
+</div>
+<!-- Popular Articles -->
+<div>
+<h4 class="font-headline text-lg italic mb-8 border-b border-outline-variant pb-2">Articles Populaires</h4>
+<div class="space-y-8">
+<a href="blog-detail.html" class="flex gap-4 group cursor-pointer">
+<div class="w-20 h-20 bg-surface-container-high flex-shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Technical close up of plumbing tools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFtzUb46xvvQ0LnNzKqcu_46QEtRM1Eaj3-K_zwdjj-z1Iqslw7a41O_3h58TcbOW3QFMH15VfC26aY1vHO_QztUdTVc4_Ns8S5GArfkEtj4h80sifp9UKc6vf9tvYCuUung7mgbvDPMLAUjh3lgvTJpiPT1G6RYuWedbeg1lHCII4Io8mEzNxXxs4CRTgjAIJeMazpZwRxTPPpwl8Y9Jmnd58aZWCqbd2oJcfEyu0vyN77rja0DOeSgEBGLHsD13ciTZ9eQyxhaQ"/>
+</div>
+<div>
+<h5 class="text-sm font-bold leading-snug group-hover:text-primary transition-colors mb-1">Comment purger vos radiateurs efficacement ?</h5>
+<span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase">4.2k Vues</span>
+</div>
+</a>
+<a href="blog-detail.html" class="flex gap-4 group cursor-pointer">
+<div class="w-20 h-20 bg-surface-container-high flex-shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Modern bathroom sink" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6MdpYDsS-2O5BgwA8JpZK5Vtm3Vw4niP7Bvjxym8VnexrxgEyfMNOmpU2SW0M01aZp6KYV4NkBhqn4iaEmE0Wy_Gi8d6iACpFPWySKEYYp2j_H-8w9o5ErCoxvwkZK5wU09TNFwID4Kmk_v818QMF45yAIVWmd-36u-8zHXOFNnbSwmF8A4m1LLE1FvfDkZw3_tbBxS0_nXyMBivhw7dmTQoVWCYZv9WrTDGVzo2gADzjkUOQHf-VjGadNHgBjQpgEL5svxeTS94"/>
+</div>
+<div>
+<h5 class="text-sm font-bold leading-snug group-hover:text-primary transition-colors mb-1">Rénover sa salle de bain : le budget réel en 2024.</h5>
+<span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase">3.8k Vues</span>
+</div>
+</a>
+<a href="blog-detail.html" class="flex gap-4 group cursor-pointer">
+<div class="w-20 h-20 bg-surface-container-high flex-shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all" data-alt="Water damage visual" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJYbAtUo-UK6HqldcdPAepCRcn3AQScxBaPGQqcDel7NwctvmE2xd-5eoqZd4Rapo6fq9xVnVg5rVUPalAU_prQENiETafQau11x9q3Z0iMoaq9QJ-GoELCqIINFzqp8u2-4E_dc0n4XJ0GEy-5cAxEMhHSvd6lHc1kn7FkuGLqqHDf7ulIDPQ8FQdvHgp2-IlRvn1ePR7_phx9SiQyZO2TD1C_P3Qumtku2itISBfCuD2nZol5y5ZZ7lhGwZ39rSSFBfS6IfqHM8"/>
+</div>
+<div>
+<h5 class="text-sm font-bold leading-snug group-hover:text-primary transition-colors mb-1">Signes avant-coureurs d'une canalisation bouchée.</h5>
+<span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase">2.9k Vues</span>
+</div>
+</a>
+</div>
+</div>
+<!-- Call to Action Card -->
+<div class="relative bg-surface-container-high p-8 overflow-hidden">
+<div class="absolute -right-4 -bottom-4 opacity-10">
+<span class="material-symbols-outlined text-[120px]">engineering</span>
+</div>
+<h4 class="font-headline text-lg italic mb-4 relative z-10">Une urgence maintenant ?</h4>
+<p class="text-sm text-on-surface-variant mb-6 relative z-10 leading-relaxed">Nos techniciens sont en route dans votre secteur. Ne laissez pas une fuite s'aggraver.</p>
+<a class="inline-flex items-center gap-3 bg-primary text-on-primary px-6 py-3 text-xs font-bold uppercase tracking-widest hover:scale-105 transition-transform relative z-10" href="tel:0123456789">
+<span class="material-symbols-outlined text-sm">call</span>
+                        APPELER UN EXPERT
+                    </a>
+</div>
+</aside>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-zinc-50 border-t border-zinc-200">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-16 px-12 py-20 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-['Fugaz_One'] italic text-xl text-zinc-900 mb-6">Plomberie Express</div>
+<p class="text-zinc-500 font-['Poppins'] text-sm leading-relaxed">Interventions d'urgence et installations de haute précision. Votre confort est notre priorité absolue depuis 15 ans.</p>
+</div>
+<div>
+<h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Services</h5>
+<ul class="space-y-4">
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Installations</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Réparations</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Débouchage</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Chauffage</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Informations</h5>
+<ul class="space-y-4">
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Tarifs</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="contact.html">Contact</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="#">Mentions Légales</a></li>
+<li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="blog.html">Blog</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Urgence 24/7</h5>
+<div class="p-6 bg-white border border-zinc-100 shadow-sm">
+<p class="text-xs text-zinc-400 uppercase tracking-widest mb-2">Ligne Directe</p>
+<p class="text-xl font-bold text-red-700 font-headline italic">01 23 45 67 89</p>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 bg-zinc-100/50">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-zinc-500 font-['Poppins'] text-[10px] uppercase tracking-widest">© 2024 Plomberie Express. Service d'Urgence 24h/7.</p>
+<div class="flex gap-8">
+<a class="text-zinc-400 hover:text-red-600 transition-colors" href="#"><span class="material-symbols-outlined text-lg">social_leaderboard</span></a>
+<a class="text-zinc-400 hover:text-red-600 transition-colors" href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+</div>
+</div>
+</div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body></html>

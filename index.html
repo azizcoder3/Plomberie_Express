@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Plomberie Express | Expert Plombier d'Urgence 24h/7</title>
+    <meta name="description"
+        content="Service de plomberie professionnel spécialisé dans les interventions d'urgence. Rapidité garantie en moins de 30 minutes à Paris et Île-de-France." />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&amp;family=Poppins:ital,wght@0,400;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "background": "#fcf8f9",
+                        "on-primary-container": "#fffbff",
+                        "on-primary-fixed-variant": "#920400",
+                        "tertiary-fixed-dim": "#bcc8d3",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#f3f0f1",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#3d4851",
+                        "outline-variant": "#e6bdb6",
+                        "secondary-fixed-dim": "#ebc300",
+                        "tertiary-fixed": "#d8e4ef",
+                        "on-secondary-fixed": "#231b00",
+                        "on-surface-variant": "#5d403b",
+                        "surface-container-low": "#f6f3f4",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#fed305",
+                        "on-secondary-container": "#705b00",
+                        "surface-dim": "#dcd9da",
+                        "surface-container-high": "#eae7e8",
+                        "on-primary-fixed": "#410100",
+                        "on-tertiary-container": "#fcfcff",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#121d25",
+                        "primary-fixed-dim": "#ffb4a8",
+                        "surface": "#fcf8f9",
+                        "on-surface": "#1b1b1c",
+                        "secondary-fixed": "#ffe178",
+                        "surface-container-highest": "#e5e2e3",
+                        "outline": "#916f69",
+                        "surface-variant": "#e5e2e3",
+                        "on-background": "#1b1b1c",
+                        "error": "#ba1a1a",
+                        "surface-container": "#f0edee",
+                        "tertiary-container": "#6b7680",
+                        "secondary": "#715d00",
+                        "inverse-surface": "#303031",
+                        "tertiary": "#525d67",
+                        "primary-fixed": "#ffdad4",
+                        "on-secondary": "#ffffff",
+                        "primary": "#bb0600",
+                        "surface-tint": "#be0b02",
+                        "surface-bright": "#fcf8f9",
+                        "on-secondary-fixed-variant": "#554500",
+                        "inverse-primary": "#ffb4a8",
+                        "on-tertiary": "#ffffff",
+                        "primary-container": "#e02b1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Fugaz One", "cursive"],
+                        "body": ["Poppins", "sans-serif"],
+                        "label": ["Plus Jakarta Sans", "sans-serif"],
+                        "display": ["Fugaz One", "cursive"]
+                    }
+                },
+            },
+        }
+    </script>
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-white">
+    <!-- Urgency Banner -->
+    <div
+        class="fixed top-0 left-0 w-full z-[60] h-8 bg-secondary-container/80 backdrop-blur-md flex items-center justify-center border-none">
+        <p class="font-label text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold text-on-secondary-container">
+            Service d'Urgence 24h/7 — Intervention en moins de 30 minutes
+        </p>
+    </div>
+    <!-- TopNavBar -->
+    <header
+        class="fixed top-8 w-full z-50 bg-white/90 backdrop-blur-xl dark:bg-zinc-950/90 border-b border-zinc-100 dark:border-zinc-900 shadow-sm">
+        <div class="flex justify-between items-center px-12 py-5 max-w-[1920px] mx-auto">
+            <div
+                class="font-['Fugaz_One'] italic text-2xl text-red-700 dark:text-red-500 transition-all duration-300 hover:scale-105">
+                Plomberie Express
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-red-700 dark:text-red-500 font-bold border-b-2 border-red-700 pb-1 transition-all duration-300 hover:scale-105"
+                    href="index.html">Accueil</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105"
+                    href="services.html">Services</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105"
+                    href="blog.html">Blog</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105"
+                    href="contact.html">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-6">
+                <a class="hidden lg:block font-['Poppins'] text-sm uppercase tracking-widest font-bold text-zinc-900"
+                    href="tel:0123456789">01 23 45 67 89</a>
+                <a class="bg-primary text-white px-6 py-3 font-['Poppins'] text-sm uppercase tracking-widest font-bold transition-all duration-300 hover:scale-105 active:opacity-80 active:scale-95 text-center"
+                    href="tel:0123456789">
+                    APPEL D'URGENCE
+                </a>
+                <button class="md:hidden text-zinc-900" id="mobile-menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu Container -->
+        <div class="hidden md:hidden fixed top-28 left-0 w-full bg-white z-40 border-b border-zinc-100 shadow-xl p-8 space-y-6"
+            id="mobile-menu">
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600"
+                href="index.html">Accueil</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600"
+                href="services.html">Services</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="blog.html">Blog</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600"
+                href="contact.html">Contact</a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-32 overflow-hidden bg-zinc-950">
+        <div class="absolute inset-0 opacity-80">
+            <img class="w-full h-full object-cover object-[center_25%]" src="assets/images/professional-plumber.jpeg"
+                alt="Plombier professionnel souriant" />
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/40 to-transparent"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <h1
+                    class="font-display italic text-6xl md:text-7xl lg:text-8xl text-white leading-none tracking-tighter">
+                    Plombier <br />
+                    <span class="text-primary">d'Urgence</span>
+                </h1>
+                <p class="text-white/80 font-body text-xl max-w-lg leading-relaxed">
+                    Disponible 24h/24, 7j/7. Votre expert de proximité pour des interventions rapides et une précision
+                    industrielle sans compromis.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a class="bg-primary hover:bg-primary-container text-white px-8 py-5 rounded-none font-bold text-lg flex items-center justify-center gap-3 transition-all duration-300 group"
+                        href="tel:0123456789">
+                        Appelez-nous maintenant
+                        <span
+                            class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                    <a class="bg-secondary-container hover:bg-secondary text-on-secondary-container hover:text-white px-8 py-5 rounded-none font-bold text-lg flex items-center justify-center transition-all duration-300"
+                        href="contact.html">
+                        Demander un devis
+                    </a>
+                </div>
+                <!-- Trust Bar -->
+                <div class="flex flex-wrap items-center gap-8 pt-8 text-white">
+                    <div class="flex items-center gap-2">
+                        <span class="text-secondary-container font-bold text-2xl">4.8★</span>
+                        <span class="text-xs font-label uppercase tracking-widest text-white/60">Avis Clients</span>
+                    </div>
+                    <div class="w-px h-8 bg-white/20 hidden sm:block"></div>
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-secondary-container">verified</span>
+                        <span class="text-xs font-label uppercase tracking-widest text-white/60">Certifié RGE</span>
+                    </div>
+                    <div class="w-px h-8 bg-white/20 hidden sm:block"></div>
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-secondary-container">payments</span>
+                        <span class="text-xs font-label uppercase tracking-widest text-white/60">Prix fixe
+                            garanti</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Bento Grid -->
+    <section class="py-32 bg-surface">
+        <div class="max-w-7xl mx-auto px-12">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+                <div class="max-w-2xl">
+                    <span class="text-primary font-label font-bold uppercase tracking-widest mb-4 block">Nos
+                        Interventions</span>
+                    <h2 class="font-display italic text-5xl text-on-surface">Une Maîtrise Totale de l'Eau</h2>
+                </div>
+                <p class="text-on-surface-variant max-w-xs font-body italic">Huit pôles d'excellence pour répondre à
+                    chaque défi technique avec une rapidité exemplaire.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Service Item 1 -->
+                <div class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">water_drop</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Fuites d'eau</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Détection et
+                        réparation immédiate de fuites visibles ou encastrées.</p>
+                </div>
+                <!-- Service Item 2 -->
+                <div
+                    class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500 lg:row-span-2">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">sanitizer</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Débouchage</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Curage et
+                        débouchage haute pression de vos canalisations et sanitaires.</p>
+                    <div class="mt-12 overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity">
+                        <img class="w-full grayscale brightness-50"
+                            data-alt="Close-up of industrial plumbing equipment for high-pressure drain cleaning on dark floor"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIwVn2XjIYnapGF-uY0w11p62wtmjg7dNLM8P2WMDy2KfVsCPwuWuaEv2IfpQh_HDebpUslPFR0a3gNhQgLKmrTVcMHhTqNyqVjdP3kgUKBMwDe07Ffg9oM9VfNS6fp3sBGngtKAMQT_hmqMDM-1g2G1znBKneEmgNOFQxouaYQ6iIFV6LNn2YgaXp-W_wqtZ6fWP5gHTUCfW-kPxNlR8v4JoOi_n6IBMldpAC2Q6wpdSAfd6crfb_9YeBv7MKBsTn5GaIVmz_mrw" />
+                    </div>
+                </div>
+                <!-- Service Item 3 -->
+                <div class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">fireplace</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Chauffage</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Maintenance et
+                        dépannage de chaudières toutes marques.</p>
+                </div>
+                <!-- Service Item 4 -->
+                <div class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">bathtub</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Installation</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Pose de
+                        sanitaires, douches à l'italienne et robinetterie design.</p>
+                </div>
+                <!-- Service Item 5 -->
+                <div class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">hot_tub</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Ballon d'eau</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Remplacement
+                        express et détartrage de chauffe-eau électrique.</p>
+                </div>
+                <!-- Service Item 6 -->
+                <div
+                    class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500 lg:col-span-2">
+                    <div class="flex items-start justify-between">
+                        <div>
+                            <span
+                                class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">plumbing</span>
+                            <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Rénovation Complète</h3>
+                            <p
+                                class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed max-w-sm">
+                                Accompagnement de A à Z pour la refonte technique de vos espaces d'eau.</p>
+                        </div>
+                        <span
+                            class="material-symbols-outlined text-8xl opacity-10 group-hover:opacity-20 transition-opacity">construction</span>
+                    </div>
+                </div>
+                <!-- Service Item 7 -->
+                <div class="bg-surface-container-low p-8 group hover:bg-primary transition-all duration-500">
+                    <span
+                        class="material-symbols-outlined text-4xl text-primary group-hover:text-white mb-6">verified_user</span>
+                    <h3 class="font-display italic text-xl mb-4 group-hover:text-white">Expertise Gaz</h3>
+                    <p class="text-on-surface-variant group-hover:text-white/80 text-sm leading-relaxed">Vérification de
+                        conformité et recherche de fuites de gaz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section - Founder -->
+    <section class="py-32 bg-surface-container-low relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+                <div class="relative">
+                    <div class="aspect-[4/5] bg-zinc-200">
+                        <img class="w-full h-full object-cover"
+                            data-alt="Portrait of a professional master plumber in his late 40s with a confident smile, wearing a branded charcoal work shirt"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3K23NWWKnLFU4J1i3957ipYXBSJbFXKanZrHY5sQYzbk-rEhjmst20vHu8wpV0RiFIv_umsVUsrLSWsrslnrUkvTdadYXwkCLtiMbNk2l3wp6nWiZS0iPVSsazSuch_at_t6O0L6itbMZSJ_8-Z3sSbqhVX8dfo8GlB6fCZmV-5pHQqUD-CmY2a6Px5EfCWjkH-xv76wTAjOXblcinxe886tNbHSEfKpDkyoylo1E90q6ToGT6elkjIfYptaBeXogvUs_987XWoU" />
+                    </div>
+                    <div class="absolute -bottom-10 -right-10 bg-secondary-container p-12 hidden md:block">
+                        <p class="font-display italic text-4xl text-on-secondary-container">15 ANS</p>
+                        <p class="font-label uppercase tracking-widest text-xs font-bold text-on-secondary-container">
+                            D'expérience terrain</p>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <span class="text-primary font-label font-bold uppercase tracking-widest block">Notre
+                        Histoire</span>
+                    <h2 class="font-display italic text-5xl text-on-surface">L'Art de la Précision Industrielle</h2>
+                    <p class="text-on-surface-variant text-lg leading-relaxed font-body">
+                        "Fondée sur les principes de réactivité et de transparence, Plomberie Express est née d'un
+                        constat simple : l'urgence ne doit jamais excuser un travail bâclé. Nous traitons chaque
+                        intervention comme une pièce d'orfèvrerie industrielle."
+                    </p>
+                    <div class="pt-4">
+                        <p class="font-display italic text-2xl mb-1">Jean-Marc Lefebvre</p>
+                        <p class="font-label text-primary uppercase tracking-widest text-sm font-bold">Fondateur &amp;
+                            Maître Artisan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us -->
+    <section class="py-32 bg-background">
+        <div class="max-w-7xl mx-auto px-12 text-center mb-20">
+            <h2 class="font-display italic text-5xl mb-6">Pourquoi Nous Choisir ?</h2>
+            <div class="h-1 w-24 bg-primary mx-auto"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="text-center space-y-4">
+                <div class="w-20 h-20 bg-surface-container-highest flex items-center justify-center mx-auto mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary">speed</span>
+                </div>
+                <h4 class="font-display italic text-xl">Rapidité Fulgurante</h4>
+                <p class="text-on-surface-variant font-body">Intervention garantie en moins de 30 minutes pour les
+                    urgences vitales de votre habitat.</p>
+            </div>
+            <div class="text-center space-y-4">
+                <div class="w-20 h-20 bg-surface-container-highest flex items-center justify-center mx-auto mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary">search_check</span>
+                </div>
+                <h4 class="font-display italic text-xl">Transparence Totale</h4>
+                <p class="text-on-surface-variant font-body">Un devis détaillé avant chaque début de travaux. Aucun coût
+                    caché, aucune mauvaise surprise.</p>
+            </div>
+            <div class="text-center space-y-4">
+                <div class="w-20 h-20 bg-surface-container-highest flex items-center justify-center mx-auto mb-8">
+                    <span class="material-symbols-outlined text-4xl text-primary">workspace_premium</span>
+                </div>
+                <h4 class="font-display italic text-xl">Garantie Décennale</h4>
+                <p class="text-on-surface-variant font-body">Tous nos travaux sont couverts par une assurance décennale
+                    pour une sérénité absolue.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Section : Travail à l'Heure & Galerie -->
+    <section class="py-32 bg-surface-container-low">
+        <div class="max-w-7xl mx-auto px-12">
+
+            <!-- En-tête de section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-end mb-20">
+                <div>
+                    <span class="text-primary font-label font-bold uppercase tracking-widest mb-4 block">Savoir-faire &
+                        Transparence</span>
+                    <h2 class="font-display italic text-5xl text-on-surface">Précision en Image & <br />Tarification
+                        Claire</h2>
+                </div>
+                <div class="bg-white p-8 border-l-4 border-secondary-container shadow-sm">
+                    <h4 class="font-display italic text-xl mb-2">Travail à l'heure</h4>
+                    <p class="text-on-surface-variant font-body text-sm leading-relaxed">
+                        Pour vos projets de maintenance ou petites réparations, nous proposons un forfait horaire fixe
+                        de <strong>65€ HT/h</strong>. Expertise garantie, matériel inclus, aucune surprise.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Galerie Photos Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Image 1: Réparation d'Urgence -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/depannage-urgence-plomberie.jpg"
+                        alt="Dépannage Urgence Plomberie"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Urgence</span>
+                        <p class="text-white font-display italic text-lg">Réparation d'Urgence</p>
+                    </div>
+                </div>
+                <!-- Image 2: Installation Chaudière -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/installation-chaudiere-gaz-idf.png"
+                        alt="Installation Chaudière Gaz IDF"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Installation</span>
+                        <p class="text-white font-display italic text-lg">Chaudière Gaz</p>
+                    </div>
+                </div>
+                <!-- Image 3: Soudure de Précision -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/soudure-tuyau-cuivre-precision.png"
+                        alt="Soudure Tuyau Cuivre Précision"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Technique</span>
+                        <p class="text-white font-display italic text-lg">Soudure de Précision</p>
+                    </div>
+                </div>
+                <!-- Image 4: Rénovation Salle de Bain -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/renovation-salle-de-bain-moderne.png"
+                        alt="Rénovation Salle de Bain Moderne"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Aménagement</span>
+                        <p class="text-white font-display italic text-lg">Rénovation Salle de Bain</p>
+                    </div>
+                </div>
+                <!-- Image 5: Débouchage Haute Pression -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/debouchage-canalisation-haute-pression.png"
+                        alt="Débouchage Canalisation Haute Pression"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Assainissement</span>
+                        <p class="text-white font-display italic text-lg">Débouchage Haute Pression</p>
+                    </div>
+                </div>
+                <!-- Image 6: Recherche de Fuite High-Tech -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/recherche-fuite-camera-thermique.png"
+                        alt="Recherche Fuite Caméra Thermique"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Diagnostic</span>
+                        <p class="text-white font-display italic text-lg">Recherche de Fuite High-Tech</p>
+                    </div>
+                </div>
+                <!-- Image 7: Installation Robinetterie -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/pose-robinet-cuisine-inox.jpg"
+                        alt="Pose Robinet Cuisine Inox"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">Équipement</span>
+                        <p class="text-white font-display italic text-lg">Installation Robinetterie</p>
+                    </div>
+                </div>
+                <!-- Image 8: Le Plombier de Confiance (Portrait) -->
+                <div class="group relative aspect-square overflow-hidden bg-zinc-200">
+                    <img src="assets/images/expert-plombier-equipe-express.jpg"
+                        alt="Expert Plombier Équipe Express"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <span class="text-white text-xs font-bold uppercase tracking-widest">L'Équipe</span>
+                        <p class="text-white font-display italic text-lg">Le Plombier de Confiance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials - Editorial Asymmetric -->
+    <section id="testimonials" class="relative overflow-hidden bg-primary">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <!-- Left Column - Image -->
+            <div class="relative min-h-[400px] lg:min-h-[700px]">
+                <img class="w-full h-full object-cover absolute inset-0"
+                    src="assets/images/plumber-client.png"
+                    alt="Plombier professionnel souriant avec un client satisfait" />
+                <!-- Overlay gradient for depth -->
+                <div class="absolute inset-0 bg-gradient-to-r from-black/10 to-black/30 lg:hidden"></div>
+                <!-- Desktop clip-path overlay that creates the bevel -->
+                <div class="hidden lg:block absolute top-0 right-0 w-[80px] h-full bg-primary"
+                    style="clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 0);"></div>
+            </div>
+            <!-- Right Column - Red Content Panel -->
+            <div class="relative bg-primary text-white lg:min-h-[700px] flex flex-col justify-center lg:-ml-px"
+                style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); box-shadow: -1px 0 0 #bb0600;">
+                <!-- Desktop bevel left edge -->
+                <div class="hidden lg:block absolute top-0 left-0 w-[80px] h-full bg-primary z-10"
+                    style="clip-path: polygon(100% 0, 100% 100%, 0 100%);
+                           margin-left: -80px;"></div>
+                <!-- Content -->
+                <div class="relative z-20 px-8 sm:px-12 lg:px-16 xl:px-20 py-16 lg:py-0">
+                    <!-- Surtitre -->
+                    <span class="font-label text-xs font-bold uppercase tracking-[0.25em] text-white/70 block mb-4">CE QUE NOS CLIENTS DISENT</span>
+                    <!-- Titre -->
+                    <h2 class="font-display italic text-4xl sm:text-5xl text-white mb-12 leading-tight">CLIENTS SATISFAITS</h2>
+                    <!-- Testimonial Slider Content -->
+                    <div class="relative overflow-hidden" id="editorial-testimonial-slider">
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide transition-all duration-700 ease-in-out" data-slide="0">
+                            <div class="flex gap-1 text-secondary-container mb-6">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-xl sm:text-2xl font-body italic leading-relaxed mb-8 text-white/95">"Une intervention un dimanche soir à 23h pour une fuite majeure. Le technicien a été exemplaire : efficace, propre et très pédagogue sur le prix."</p>
+                            <p class="font-label text-sm uppercase tracking-widest font-bold text-white">— Marc A., Paris 15ème</p>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide transition-all duration-700 ease-in-out absolute inset-0 opacity-0 pointer-events-none" data-slide="1">
+                            <div class="flex gap-1 text-secondary-container mb-6">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-xl sm:text-2xl font-body italic leading-relaxed mb-8 text-white/95">"Changement de chauffe-eau réalisé en 4 heures après mon appel. Rapport qualité-prix imbattable pour une telle réactivité."</p>
+                            <p class="font-label text-sm uppercase tracking-widest font-bold text-white">— Sophie L., Boulogne-Billancourt</p>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="testimonial-slide transition-all duration-700 ease-in-out absolute inset-0 opacity-0 pointer-events-none" data-slide="2">
+                            <div class="flex gap-1 text-secondary-container mb-6">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-xl sm:text-2xl font-body italic leading-relaxed mb-8 text-white/95">"Installation d'une salle de bain complète en 48h. Un travail d'une netteté rare dans le métier. On sent l'expérience."</p>
+                            <p class="font-label text-sm uppercase tracking-widest font-bold text-white">— Pierre D., Neuilly-sur-Seine</p>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="testimonial-slide transition-all duration-700 ease-in-out absolute inset-0 opacity-0 pointer-events-none" data-slide="3">
+                            <div class="flex gap-1 text-secondary-container mb-6">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-xl sm:text-2xl font-body italic leading-relaxed mb-8 text-white/95">"Le contrat d'entretien pour ma chaudière est clair et le technicien est ponctuel. Service très pro et rassurant."</p>
+                            <p class="font-label text-sm uppercase tracking-widest font-bold text-white">— Clara M., Paris 8ème</p>
+                        </div>
+                    </div>
+                    <!-- Arrow Navigation -->
+                    <div class="flex items-center gap-4 mt-12">
+                        <button id="testimonial-prev"
+                            class="w-12 h-12 border-2 border-white/40 hover:border-white hover:bg-white/10 flex items-center justify-center transition-all duration-300 group">
+                            <span class="material-symbols-outlined text-white/70 group-hover:text-white transition-colors">arrow_back</span>
+                        </button>
+                        <button id="testimonial-next"
+                            class="w-12 h-12 border-2 border-white/40 hover:border-white hover:bg-white/10 flex items-center justify-center transition-all duration-300 group">
+                            <span class="material-symbols-outlined text-white/70 group-hover:text-white transition-colors">arrow_forward</span>
+                        </button>
+                        <!-- Slide counter -->
+                        <span class="ml-4 font-label text-sm text-white/50 tracking-widest">
+                            <span id="testimonial-current" class="text-white font-bold">01</span> / 04
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Floating Quote Icon -->
+        <div class="hidden lg:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 w-20 h-20 bg-secondary-container rounded-full items-center justify-center shadow-2xl"
+            style="filter: drop-shadow(0 8px 24px rgba(0,0,0,0.25));">
+            <span class="material-symbols-outlined text-on-secondary-container text-3xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+        </div>
+    </section>
+    <!-- Questions Fréquentes -->
+    <section id="faq" class="py-32 bg-surface">
+        <div class="max-w-7xl mx-auto px-12">
+            <div class="text-center mb-20">
+                <span class="text-primary font-label font-bold uppercase tracking-widest mb-4 block">Besoin d'aide
+                    ?</span>
+                <h2 class="font-display italic text-5xl mb-6">Questions Fréquentes</h2>
+                <div class="h-1 w-24 bg-primary mx-auto"></div>
+            </div>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h5 class="faq-question font-bold font-body mb-2 flex justify-between items-center cursor-pointer">
+                        Quels sont vos délais d'intervention en urgence ?
+                        <span
+                            class="material-symbols-outlined text-primary transition-transform duration-300">add</span>
+                    </h5>
+                    <p class="faq-answer text-on-surface-variant text-sm leading-relaxed">Nous intervenons en moins de
+                        30 minutes
+                        sur toute la zone métropolitaine, 24h/24 et 7j/7. Notre réseau de techniciens qualifiés couvre
+                        Paris et l'ensemble de la petite couronne.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h5 class="faq-question font-bold font-body mb-2 flex justify-between items-center cursor-pointer">
+                        Proposez-vous des devis gratuits ?
+                        <span
+                            class="material-symbols-outlined text-primary transition-transform duration-300">add</span>
+                    </h5>
+                    <p class="faq-answer text-on-surface-variant text-sm leading-relaxed">Oui, tous nos devis sont
+                        gratuits et sans
+                        engagement. Vous recevez une estimation claire et détaillée avant toute intervention, sans aucun
+                        frais caché.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h5 class="faq-question font-bold font-body mb-2 flex justify-between items-center cursor-pointer">
+                        Êtes-vous agréés par les assurances ?
+                        <span
+                            class="material-symbols-outlined text-primary transition-transform duration-300">add</span>
+                    </h5>
+                    <p class="faq-answer text-on-surface-variant text-sm leading-relaxed">Oui, nous sommes agréés par
+                        les
+                        principales compagnies d'assurance, ce qui facilite vos démarches de remboursement et de prise
+                        en charge.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h5 class="faq-question font-bold font-body mb-2 flex justify-between items-center cursor-pointer">
+                        Quels modes de paiement acceptez-vous ?
+                        <span
+                            class="material-symbols-outlined text-primary transition-transform duration-300">add</span>
+                    </h5>
+                    <p class="faq-answer text-on-surface-variant text-sm leading-relaxed">Nous acceptons les paiements
+                        par carte bancaire, chèque, virement et espèces. Un reçu détaillé vous est remis
+                        systématiquement à la fin de chaque intervention.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h5 class="faq-question font-bold font-body mb-2 flex justify-between items-center cursor-pointer">
+                        Intervenez-vous les jours fériés ?
+                        <span
+                            class="material-symbols-outlined text-primary transition-transform duration-300">add</span>
+                    </h5>
+                    <p class="faq-answer text-on-surface-variant text-sm leading-relaxed">Absolument. Notre service
+                        d'urgence fonctionne 365 jours par an, y compris les week-ends et jours fériés, sans aucune
+                        majoration sur le tarif d'intervention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Zones d'Intervention -->
+    <section id="zones-intervention" class="py-32 bg-surface-container-low relative overflow-hidden">
+        <!-- Background Map -->
+        <div class="absolute inset-0 z-0">
+            <img class="w-full h-full object-cover opacity-[0.08] grayscale" src="assets/images/paris-idf-map.png"
+                alt="Carte de Paris et Île-de-France" />
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 sm:px-12">
+            <!-- Section Title -->
+            <div class="text-center mb-16">
+                <h2 class="font-display italic text-4xl sm:text-5xl text-on-surface tracking-tight">NOS SECTEURS
+                    D'INTERVENTION</h2>
+                <div class="h-1 w-24 bg-primary mx-auto mt-6"></div>
+            </div>
+            <!-- Floating Table Container -->
+            <div class="bg-white shadow-2xl overflow-hidden flex flex-col lg:flex-row max-w-6xl mx-auto"
+                style="box-shadow: 0 25px 60px -12px rgba(0,0,0,0.15);">
+                <!-- Left Panel - Departments (Red) -->
+                <div class="w-full lg:w-[30%] bg-primary text-white p-8 sm:p-10 flex flex-col justify-center">
+                    <h3 class="font-display italic text-2xl mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-3xl">location_on</span>
+                        Départements
+                    </h3>
+                    <ul class="space-y-5">
+                        <li class="flex items-center gap-4 group">
+                            <span
+                                class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-secondary-container group-hover:scale-110 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-lg text-white group-hover:text-on-secondary-container"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </span>
+                            <div>
+                                <span class="font-bold text-lg">75</span>
+                                <span class="text-white/80 ml-2 text-sm">— Paris</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4 group">
+                            <span
+                                class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-secondary-container group-hover:scale-110 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-lg text-white group-hover:text-on-secondary-container"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </span>
+                            <div>
+                                <span class="font-bold text-lg">92</span>
+                                <span class="text-white/80 ml-2 text-sm">— Hauts-de-Seine</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4 group">
+                            <span
+                                class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-secondary-container group-hover:scale-110 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-lg text-white group-hover:text-on-secondary-container"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </span>
+                            <div>
+                                <span class="font-bold text-lg">93</span>
+                                <span class="text-white/80 ml-2 text-sm">— Seine-Saint-Denis</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4 group">
+                            <span
+                                class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-secondary-container group-hover:scale-110 transition-all duration-300">
+                                <span
+                                    class="material-symbols-outlined text-lg text-white group-hover:text-on-secondary-container"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </span>
+                            <div>
+                                <span class="font-bold text-lg">94</span>
+                                <span class="text-white/80 ml-2 text-sm">— Val-de-Marne</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Quick Stats -->
+                    <div class="mt-10 pt-8 border-t border-white/20">
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="material-symbols-outlined text-secondary-container">groups</span>
+                            <span class="text-sm text-white/90"><strong class="text-white">+12 000</strong>
+                                interventions/an</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-secondary-container">schedule</span>
+                            <span class="text-sm text-white/90"><strong class="text-white">&lt;30 min</strong>
+                                d'intervention</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Panel - Cities Grid (White) -->
+                <div class="w-full lg:w-[70%] p-8 sm:p-10 lg:p-12">
+                    <h3 class="font-display italic text-2xl text-on-surface mb-2">Villes Desservies</h3>
+                    <p class="text-on-surface-variant text-sm mb-8">Nous intervenons dans plus de 40 communes en
+                        Île-de-France.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3">
+                        <!-- Column 1 -->
+                        <div class="space-y-3">
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Neuilly-sur-Seine</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Levallois-Perret</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Boulogne-Billancourt</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Nanterre</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Courbevoie</span>
+                            </div>
+                        </div>
+                        <!-- Column 2 -->
+                        <div class="space-y-3">
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Versailles</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Saint-Cloud</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Saint-Denis</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Montreuil</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Issy-les-Moulineaux</span>
+                            </div>
+                        </div>
+                        <!-- Column 3 -->
+                        <div class="space-y-3">
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Créteil</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Vincennes</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Vitry-sur-Seine</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Antony</span>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 py-2 px-3 hover:bg-surface-container-low transition-colors duration-200 group">
+                                <span
+                                    class="material-symbols-outlined text-primary text-base opacity-60 group-hover:opacity-100">chevron_right</span>
+                                <span class="text-sm text-on-surface font-body">Rueil-Malmaison</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- More cities hint -->
+                    <p class="text-xs text-on-surface-variant mt-6 italic">Et bien d'autres communes... Contactez-nous
+                        pour vérifier la couverture dans votre secteur.</p>
+                </div>
+            </div>
+            <!-- CTA Button -->
+            <div class="text-center mt-14">
+                <a href="contact.html"
+                    class="inline-flex items-center gap-3 bg-secondary-container hover:bg-secondary text-on-secondary-container hover:text-white px-10 py-5 font-bold text-base uppercase tracking-widest transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl group">
+                    <span class="material-symbols-outlined group-hover:animate-pulse">my_location</span>
+                    VÉRIFIER LA DISPONIBILITÉ DANS MA VILLE
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform duration-300">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog -->
+    <section class="py-32 bg-surface-container-low">
+        <div class="max-w-7xl mx-auto px-12">
+            <div class="flex items-center justify-between mb-16">
+                <h2 class="font-display italic text-4xl">Le Blog de l'Expert</h2>
+                <a class="text-primary font-bold uppercase tracking-widest text-sm flex items-center gap-2"
+                    href="blog.html">Voir tout <span class="material-symbols-outlined">chevron_right</span></a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a class="bg-white group overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500"
+                    href="blog-detail.html?id=1">
+                    <article>
+                        <div class="aspect-video overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                data-alt="Close-up of modern kitchen sink faucet with clear water flowing, focusing on detail and cleanliness"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhH6FFNl7oIwEVImOy2c1LExtwby0zgx8TgBryLGHgOTkerzj0HEtYAR1JDj1RyFM7WyuO6NsH5VmmZHFagDzfr0fuzEF4ScjbcAQCrUuQiy1tiUpKR9j7-KXrpSZJTHqFXGBEKR91OCQ7vpxeZpNA4XEc_uM8VENERsNEjvfGmdDBFaNECzYJULKUZqmFquW0ZOEdASwh5s3tbqHG7TyyTnk4yF0spBrf9jrcJI6u1HcWWMQa9yKBQ3M5b7B1G9fWk3IiBhu_IiE" />
+                        </div>
+                        <div class="p-8">
+                            <span
+                                class="text-xs font-label text-primary font-bold uppercase tracking-widest mb-4 block">Conseils</span>
+                            <h3 class="font-display italic text-xl mb-4 leading-tight">5 signes qu'une fuite se cache
+                                derrière vos murs</h3>
+                            <p class="text-on-surface-variant text-sm">Apprenez à détecter l'invisible avant que les
+                                dégâts ne deviennent irréparables.</p>
+                        </div>
+                    </article>
+                </a>
+                <a class="bg-white group overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500"
+                    href="blog-detail.html?id=2">
+                    <article>
+                        <div class="aspect-video overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                data-alt="Modern bathroom with copper pipes and white tile walls, artistic architectural interior photography"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIDxbyrjEsbl6qazyNrX-Hchn5ztN3kpYijIvJdmit56XK1Y1BRAsWbMpn_UQ6wioyd3kC2M2yAtS3WNyY5j4IyUHttXEl4swjAY1A_DeZaDNIR-TDA_biAg-R7LdbQYQ0Nnv31m1tMkZXTJNjS0O1tlU7dyjTNCpeQYO3I_M1_Y-MJX4ssBDnGWysRAAD9abHiUA-nlDru0AO2TmhYy2IiLV4OkI-X3AoEncK6U5pk6BJKsXJ3Y2gcgF3SOOc79JfAaaTcwNKxwE" />
+                        </div>
+                        <div class="p-8">
+                            <span
+                                class="text-xs font-label text-primary font-bold uppercase tracking-widest mb-4 block">Installation</span>
+                            <h3 class="font-display italic text-xl mb-4 leading-tight">Pourquoi passer à une pompe à
+                                chaleur en 2024 ?</h3>
+                            <p class="text-on-surface-variant text-sm">Analyse complète des économies d'énergie et des
+                                aides gouvernementales disponibles.</p>
+                        </div>
+                    </article>
+                </a>
+                <a class="bg-white group overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500"
+                    href="blog-detail.html?id=3">
+                    <article>
+                        <div class="aspect-video overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                data-alt="Close up of mechanical tools and wrenches laid out on an industrial workshop table"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLe4_nKu08WmCFu8k7gc-qnCofa_rdMIRGsjjtZ5rPJosoByRojMDELpumNoOSUkQcJ-zGRUTGscgyBE8Ta93nirEUfgP6hvsdy8B9IjW6wNK11q-sk2TaWT1CcRt_ThyftUL8gga7df4-QuGG8gcyD49ZzR6ZGSrhqweImVB36ASuv9UIjVgbRalBwCcrOUpnsW4v8f3r4lcnqIFWgZ-uj5LAX7L6ccIjskfKf111zYOOJ7SC1i4u2HD048aTHSDst8XcqnVtGPE" />
+                        </div>
+                        <div class="p-8">
+                            <span
+                                class="text-xs font-label text-primary font-bold uppercase tracking-widest mb-4 block">Entretien</span>
+                            <h3 class="font-display italic text-xl mb-4 leading-tight">L'art de l'entretien des
+                                canalisations anciennes</h3>
+                            <p class="text-on-surface-variant text-sm">Comment préserver la tuyauterie de votre
+                                appartement haussmannien.</p>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-zinc-50 dark:bg-zinc-950 w-full mt-auto">
+        <div class="bg-zinc-200 dark:bg-zinc-800 h-px"></div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-16 px-12 py-20 max-w-7xl mx-auto">
+            <div class="space-y-6">
+                <div class="font-['Fugaz_One'] italic text-xl text-zinc-900 dark:text-white">Plomberie Express</div>
+                <p class="font-['Poppins'] text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
+                    Service de plomberie d'élite pour particuliers et professionnels. Expertise industrielle, réactivité
+                    artisanale.
+                </p>
+                <div class="flex gap-4">
+                    <span
+                        class="material-symbols-outlined text-zinc-400 hover:text-red-700 cursor-pointer transition-colors">public</span>
+                    <span
+                        class="material-symbols-outlined text-zinc-400 hover:text-red-700 cursor-pointer transition-colors">alternate_email</span>
+                    <span
+                        class="material-symbols-outlined text-zinc-400 hover:text-red-700 cursor-pointer transition-colors">call</span>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-bold text-zinc-900 dark:text-white mb-6 uppercase tracking-widest text-xs">Services</h4>
+                <ul class="space-y-4">
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="services.html">Installations</a></li>
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="services.html">Réparations</a></li>
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="services.html">Débouchage</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-zinc-900 dark:text-white mb-6 uppercase tracking-widest text-xs">Liens Utiles
+                </h4>
+                <ul class="space-y-4">
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="services.html">Chauffage</a></li>
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="services.html">Tarifs</a></li>
+                    <li><a class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+                            href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-zinc-900 dark:text-white mb-6 uppercase tracking-widest text-xs">Abonnement
+                </h4>
+                <p class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400 mb-4">Recevez nos conseils de
+                    maintenance.</p>
+                <form class="flex">
+                    <input
+                        class="bg-zinc-100 dark:bg-zinc-900 border-none px-4 py-2 text-sm w-full focus:ring-1 focus:ring-red-700"
+                        placeholder="Votre email" type="email" required />
+                    <button class="bg-red-700 text-white p-2 flex items-center justify-center" type="submit">
+                        <span class="material-symbols-outlined text-sm">send</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-12 py-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="font-['Poppins'] text-sm text-zinc-500 dark:text-zinc-400">© 2024 Plomberie Express. Service
+                d'Urgence 24h/7.</p>
+            <div class="flex gap-8">
+                <a class="font-['Poppins'] text-xs text-zinc-400 hover:text-red-700" href="#">Mentions Légales</a>
+                <a class="font-['Poppins'] text-xs text-zinc-400 hover:text-red-700" href="#">Confidentialité</a>
+            </div>
+        </div>
+    </footer>
+    <!-- FAB Urgence -->
+    <div class="fixed bottom-8 right-8 z-[100] md:hidden">
+        <a href="tel:+33100000000"
+            class="bg-primary text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center animate-pulse">
+            <span class="material-symbols-outlined text-3xl">call</span>
+        </a>
+    </div>
+    <script src="assets/js/blog-data.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

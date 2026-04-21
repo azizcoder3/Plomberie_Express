@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Article | Plomberie Express</title>
+    <meta name="description" content="Conseils d'experts en plomberie pour entretenir vos installations."/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#bb0600",
+                        "primary-container": "#e02b1a",
+                        "on-primary": "#ffffff",
+                        "surface": "#fcf8f9",
+                        "on-surface": "#1b1b1c",
+                        "surface-container-low": "#f6f3f4",
+                        "surface-container-high": "#eae7e8"
+                    },
+                    "fontFamily": {
+                        "headline": ["Fugaz One", "cursive"],
+                        "body": ["Poppins", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body class="bg-surface text-on-surface font-body">
+    <!-- Urgency Banner -->
+    <div class="fixed top-0 left-0 w-full z-[60] h-8 bg-secondary-container/80 backdrop-blur-md flex items-center justify-center border-none">
+        <p class="font-label text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold text-on-secondary-container">
+            Service d'Urgence 24h/7 — Intervention en moins de 30 minutes
+        </p>
+    </div>
+
+    <!-- Header -->
+    <header class="fixed top-8 w-full z-50 bg-white/90 backdrop-blur-xl dark:bg-zinc-950/90 border-b border-zinc-100 dark:border-zinc-900 shadow-sm">
+        <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-[1920px] mx-auto">
+            <div class="font-['Fugaz_One'] italic text-2xl text-red-700 dark:text-red-500 transition-all duration-300 hover:scale-105">
+                Plomberie Express
+            </div>
+            <nav class="hidden md:flex gap-8 items-center">
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="index.html">Accueil</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="services.html">Services</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-red-700 dark:text-red-500 font-bold border-b-2 border-red-700 pb-1 transition-all duration-300 hover:scale-105" href="blog.html">Blog</a>
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600 dark:text-zinc-400 hover:text-red-600 transition-all duration-300 hover:scale-105" href="contact.html">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a class="font-['Poppins'] text-sm uppercase tracking-widest text-zinc-900 font-bold hidden lg:block" href="tel:0123456789">01 23 45 67 89</a>
+                <a class="bg-primary hover:bg-primary-container text-white px-6 py-3 font-['Poppins'] text-sm uppercase tracking-widest font-bold transition-all duration-300 hover:scale-105 active:scale-95 text-center" href="tel:0123456789">
+                    Appel d'Urgence
+                </a>
+                <button class="md:hidden text-zinc-900 ml-4" id="mobile-menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu Container -->
+        <div class="hidden md:hidden fixed top-28 left-0 w-full bg-white z-40 border-b border-zinc-100 shadow-xl p-8 space-y-6" id="mobile-menu">
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="index.html">Accueil</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="services.html">Services</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="blog.html">Blog</a>
+            <a class="block font-['Poppins'] text-sm uppercase tracking-widest text-zinc-600" href="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-40 pb-20">
+        <!-- Breadcrumbs -->
+        <nav class="max-w-4xl mx-auto px-6 mb-8 text-[10px] uppercase tracking-widest font-bold text-zinc-400">
+            <a href="index.html" class="hover:text-primary transition-colors">Accueil</a>
+            <span class="mx-2">/</span>
+            <a href="blog.html" class="hover:text-primary transition-colors">Blog</a>
+            <span class="mx-2">/</span>
+            <span class="text-zinc-900" id="breadcrumb-article-title">5 signes qu'une fuite se cache derrière vos murs</span>
+        </nav>
+
+        <article class="max-w-4xl mx-auto px-6">
+            <header class="mb-12">
+                <span class="bg-primary text-white text-[10px] font-bold tracking-[0.2em] uppercase px-3 py-1 mb-6 inline-block" id="article-badge">Conseils Pratiques</span>
+                <h1 class="font-headline text-4xl md:text-6xl text-on-surface italic mb-8 leading-tight" id="article-title">
+                    5 signes qu'une fuite se cache derrière vos murs
+                </h1>
+                <div class="flex items-center gap-4 text-zinc-500 text-xs">
+                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">calendar_today</span> <span id="article-date">15 Mai 2024</span></span>
+                    <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">person</span> Par Jean Expert</span>
+                </div>
+            </header>
+
+            <img class="w-full aspect-video object-cover mb-12 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhH6FFNl7oIwEVImOy2c1LExtwby0zgx8TgBryLGHgOTkerzj0HEtYAR1JDj1RyFM7WyuO6NsH5VmmZHFagDzfr0fuzEF4ScjbcAQCrUuQiy1tiUpKR9j7-KXrpSZJTHqFXGBEKR91OCQ7vpxeZpNA4XEc_uM8VENERsNEjvfGmdDBFaNECzYJULKUZqmFquW0ZOEdASwh5s3tbqHG7TyyTnk4yF0spBrf9jrcJI6u1HcWWMQa9yKBQ3M5b7B1G9fWk3IiBhu_IiE" alt="Fuite d'eau murale" id="article-image">
+
+            <div class="prose prose-zinc max-w-none text-zinc-600 leading-[1.8] space-y-6" id="article-content">
+                <!-- Content will be injected here -->
+            </div>
+
+            <!-- Related Articles -->
+            <section class="mt-24 pt-12 border-t border-zinc-100">
+                <h3 class="font-headline text-2xl italic mb-12 uppercase">Articles Similaires</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="related-articles-container">
+                    <!-- Related articles will be injected here -->
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-50 border-t border-zinc-200">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-16 px-12 py-20 max-w-7xl mx-auto">
+            <div class="col-span-1 md:col-span-1">
+                <div class="font-['Fugaz_One'] italic text-xl text-zinc-900 mb-6">Plomberie Express</div>
+                <p class="text-zinc-500 font-['Poppins'] text-sm leading-relaxed">Interventions d'urgence et installations de haute précision. Votre confort est notre priorité absolue depuis 15 ans.</p>
+            </div>
+            <div>
+                <h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Services</h5>
+                <ul class="space-y-4">
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Installations</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Réparations</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Débouchage</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Chauffage</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Informations</h5>
+                <ul class="space-y-4">
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="services.html">Tarifs</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="contact.html">Contact</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="#">Mentions Légales</a></li>
+                    <li><a class="text-zinc-500 hover:text-red-600 transition-colors font-['Poppins'] text-sm" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-8">Urgence 24/7</h5>
+                <div class="p-6 bg-white border border-zinc-100 shadow-sm">
+                    <p class="text-xs text-zinc-400 uppercase tracking-widest mb-2">Ligne Directe</p>
+                    <p class="text-xl font-bold text-red-700 font-headline italic">01 23 45 67 89</p>
+                </div>
+            </div>
+        </div>
+        <div class="px-12 py-8 bg-zinc-100/50">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-zinc-500 font-['Poppins'] text-[10px] uppercase tracking-widest">© 2024 Plomberie Express. Service d'Urgence 24h/7.</p>
+                <div class="flex gap-8">
+                    <a class="text-zinc-400 hover:text-red-600 transition-colors" href="#"><span class="material-symbols-outlined text-lg">social_leaderboard</span></a>
+                    <a class="text-zinc-400 hover:text-red-600 transition-colors" href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/blog-data.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
